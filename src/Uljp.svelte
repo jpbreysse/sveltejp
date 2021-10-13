@@ -67,6 +67,8 @@ const addItem = () => {
     <thead>
       <tr>
           <th>Select</th>
+          <th>Select2</th>
+          <th>Select2</th>
       </tr>
     </thead>
     <tbody>
@@ -81,7 +83,24 @@ const addItem = () => {
 </table>
 
 
-
+<table id="table2" border="1">
+  <thead>
+    <tr>
+        <th>Select</th>
+        <th>Select2</th>
+        <th>Select2</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr> 
+         <td>
+             <form name="f2" action="javascript:select();" >
+              <input id="edit" type="submit" name="edit" value="Edit" />
+             </form>
+         </td>
+    </tr>
+ </tbody>
+</table>
 
 
 <style>

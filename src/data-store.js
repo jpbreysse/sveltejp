@@ -43,3 +43,6 @@ export let colors = writable([
 		"HEX" : "#000000"
 	},
 ])
+
+
+
