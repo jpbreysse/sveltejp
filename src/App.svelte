@@ -8,8 +8,7 @@
 	import Table7 from './Table7.svelte';
 	import Table8 from './Table8.svelte';
 	import List from './List.svelte';
-
-	import { studentsArray, colors } from './data-store.js';
+	import Value from './Value.svelte';
 
 	let redStyle = "redTable";
 	let blueStyle = "blueTable";
@@ -25,3 +24,4 @@
 <Table7 />
 <Table8 />
 <List />
+<Value />

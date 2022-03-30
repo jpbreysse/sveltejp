@@ -1,4 +1,5 @@
 <script>
+	import Value from './Value.svelte';
 	let array = [
 		{id:1, val:"hello"},
 		{id:2, val:"world"},
@@ -49,6 +50,7 @@
 		<tr>
 			<th on:click={sort("id")}>id</th>
 			<th on:click={sort("val")}>val</th>
+			<th>Select</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -56,6 +58,7 @@
 			<tr>
 				<td>{row.id}</td>
 				<td>{row.val}</td>
+				<td><Value /></td>
 			</tr>
 		{/each}
 	</tbody>
